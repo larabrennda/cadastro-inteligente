@@ -31,7 +31,7 @@ function validarCampo(input, funcao) {
 
 // Validações
 function validarNome(valor) {
-  if (!valor.trim()) return { valido: false, mensagem: "Nome obrigatório" };
+  if (!valor.trim()) return { valido: false, mensagem: "Nome obrigatório !" };
   if (valor.length < 3) return { valido: false, mensagem: "Mínimo 3 caracteres" };
   return { valido: true };
 }
